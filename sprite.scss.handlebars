@@ -1,0 +1,18 @@
+{{#sprites}}
+@mixin {{name}} {
+  display:inline-block;
+  width: {{px.width}};
+  height: {{px.height}};
+  background-position: {{px.offset_x}} {{px.offset_y}};
+  background-size: {{px.total_width}} {{px.total_height}};
+  background-image: url($spriteURL+'{{{escaped_image}}}'+$spriteCache);
+  background-repeat: no-repeat;
+}
+{{/sprites}}
+{{!--
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {}
+@media (-webkit-min-device-pixel-ratio: 3), (min-resolution: 288dpi) {}
+--}}
+{{#sprites}}
+.{{name}} {@include {{name}}();}
+{{/sprites}}

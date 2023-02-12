@@ -1,0 +1,210 @@
+@mixin img_32_01 {
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: 0px 0px;
+  background-size: 180px 180px;
+  background-image: url($spriteURL+'sprite.png'+$spriteCache);
+  background-repeat: no-repeat;
+}
+@mixin img_32_02 {
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: -37px 0px;
+  background-size: 180px 180px;
+  background-image: url($spriteURL+'sprite.png'+$spriteCache);
+  background-repeat: no-repeat;
+}
+@mixin img_32_03 {
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: 0px -37px;
+  background-size: 180px 180px;
+  background-image: url($spriteURL+'sprite.png'+$spriteCache);
+  background-repeat: no-repeat;
+}
+@mixin img_32_04 {
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: -37px -37px;
+  background-size: 180px 180px;
+  background-image: url($spriteURL+'sprite.png'+$spriteCache);
+  background-repeat: no-repeat;
+}
+@mixin img_32_05 {
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: -74px 0px;
+  background-size: 180px 180px;
+  background-image: url($spriteURL+'sprite.png'+$spriteCache);
+  background-repeat: no-repeat;
+}
+@mixin img_32_06 {
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: -74px -37px;
+  background-size: 180px 180px;
+  background-image: url($spriteURL+'sprite.png'+$spriteCache);
+  background-repeat: no-repeat;
+}
+@mixin img_32_07 {
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: 0px -74px;
+  background-size: 180px 180px;
+  background-image: url($spriteURL+'sprite.png'+$spriteCache);
+  background-repeat: no-repeat;
+}
+@mixin img_32_08 {
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: -37px -74px;
+  background-size: 180px 180px;
+  background-image: url($spriteURL+'sprite.png'+$spriteCache);
+  background-repeat: no-repeat;
+}
+@mixin img_32_09 {
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: -74px -74px;
+  background-size: 180px 180px;
+  background-image: url($spriteURL+'sprite.png'+$spriteCache);
+  background-repeat: no-repeat;
+}
+@mixin img_32_10 {
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: -111px 0px;
+  background-size: 180px 180px;
+  background-image: url($spriteURL+'sprite.png'+$spriteCache);
+  background-repeat: no-repeat;
+}
+@mixin img_32_11 {
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: -111px -37px;
+  background-size: 180px 180px;
+  background-image: url($spriteURL+'sprite.png'+$spriteCache);
+  background-repeat: no-repeat;
+}
+@mixin img_32_12 {
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: -111px -74px;
+  background-size: 180px 180px;
+  background-image: url($spriteURL+'sprite.png'+$spriteCache);
+  background-repeat: no-repeat;
+}
+@mixin img_32_13 {
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: 0px -111px;
+  background-size: 180px 180px;
+  background-image: url($spriteURL+'sprite.png'+$spriteCache);
+  background-repeat: no-repeat;
+}
+@mixin img_32_14 {
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: -37px -111px;
+  background-size: 180px 180px;
+  background-image: url($spriteURL+'sprite.png'+$spriteCache);
+  background-repeat: no-repeat;
+}
+@mixin img_32_15 {
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: -74px -111px;
+  background-size: 180px 180px;
+  background-image: url($spriteURL+'sprite.png'+$spriteCache);
+  background-repeat: no-repeat;
+}
+@mixin img_32_16 {
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: -111px -111px;
+  background-size: 180px 180px;
+  background-image: url($spriteURL+'sprite.png'+$spriteCache);
+  background-repeat: no-repeat;
+}
+@mixin img_32_17 {
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: -148px 0px;
+  background-size: 180px 180px;
+  background-image: url($spriteURL+'sprite.png'+$spriteCache);
+  background-repeat: no-repeat;
+}
+@mixin img_32_18 {
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: -148px -37px;
+  background-size: 180px 180px;
+  background-image: url($spriteURL+'sprite.png'+$spriteCache);
+  background-repeat: no-repeat;
+}
+@mixin img_32_19 {
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: -148px -74px;
+  background-size: 180px 180px;
+  background-image: url($spriteURL+'sprite.png'+$spriteCache);
+  background-repeat: no-repeat;
+}
+@mixin img_32_20 {
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: -148px -111px;
+  background-size: 180px 180px;
+  background-image: url($spriteURL+'sprite.png'+$spriteCache);
+  background-repeat: no-repeat;
+}
+@mixin img_32_21 {
+  display:inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: 0px -148px;
+  background-size: 180px 180px;
+  background-image: url($spriteURL+'sprite.png'+$spriteCache);
+  background-repeat: no-repeat;
+}
+.img_32_01 {@include img_32_01();}
+.img_32_02 {@include img_32_02();}
+.img_32_03 {@include img_32_03();}
+.img_32_04 {@include img_32_04();}
+.img_32_05 {@include img_32_05();}
+.img_32_06 {@include img_32_06();}
+.img_32_07 {@include img_32_07();}
+.img_32_08 {@include img_32_08();}
+.img_32_09 {@include img_32_09();}
+.img_32_10 {@include img_32_10();}
+.img_32_11 {@include img_32_11();}
+.img_32_12 {@include img_32_12();}
+.img_32_13 {@include img_32_13();}
+.img_32_14 {@include img_32_14();}
+.img_32_15 {@include img_32_15();}
+.img_32_16 {@include img_32_16();}
+.img_32_17 {@include img_32_17();}
+.img_32_18 {@include img_32_18();}
+.img_32_19 {@include img_32_19();}
+.img_32_20 {@include img_32_20();}
+.img_32_21 {@include img_32_21();}

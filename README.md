@@ -1,1 +1,6 @@
 
+NODE.JS 18.14.0
+NPM 9.3.1
+GULP
+  CLI 2.3.0
+  LOCAL 4.0.2
