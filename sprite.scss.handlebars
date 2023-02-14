@@ -1,10 +1,10 @@
 {{#sprites}}
 @mixin {{name}}($ratio:3) {
   display:inline-block;
-  width: calc({{width}} / $ratio);
-  height: calc({{height}} / $ratio);
-  background-position: calc({{offset_x}} / $ratio) calc({{offset_y}} / $ratio);
-  background-size: calc({{total_width}} / $ratio) calc({{total_height}} / $ratio);
+  width: calc({{width}} / $ratio) * 1px;
+  height: calc({{height}} / $ratio) * 1px;
+  background-position: calc({{offset_x}} / $ratio) * 1px calc({{offset_y}} / $ratio) * 1px;
+  background-size: calc({{total_width}} / $ratio) * 1px calc({{total_height}} / $ratio) * 1px;
   background-image: url($spriteURL+'{{{escaped_image}}}'+$spriteCache);
   background-repeat: no-repeat;
 }
