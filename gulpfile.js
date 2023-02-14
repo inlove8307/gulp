@@ -49,10 +49,6 @@ const spriteFolder = function(spritePath) {
 
 function sprite(done) {
   let data = gulp.src('./src/image/origin/*.*').pipe(spritesmith({
-    retinaSrcFilter: './src/image/origin/*@2x.png',
-    retinaImgName: 'sprite@2x.png',
-    retina3xSrcFilter: './src/image/origin/*@3x.png',
-    retina3xImgName: 'sprite@3x.png',
     imgName: 'sprite.png',
     cssName: '_sprite.scss',
     padding: 5,
@@ -62,21 +58,17 @@ function sprite(done) {
   data.img.pipe(gulp.dest('./src/image/sprite'));
   data.css.pipe(gulp.dest('./src/sass/common'));
 
-  // spriteFolder('./src/image/origin/').forEach(function(folder){
-  //   data = gulp.src(`./src/image/origin/${folder}/*.*`).pipe(spritesmith({
-  //     retinaSrcFilter: './src/image/origin/*@2x.png',
-  //     retinaImgName: `sprite${folder}@2x.png`,
-  //     retina3xSrcFilter: './src/image/origin/*@3x.png',
-  //     retina3xImgName: `sprite${folder}@3x.png`,
-  //     imgName: `sprite${folder}.png`,
-  //     cssName: `_sprite${folder}.scss`,
-  //     padding: 5,
-  //     cssTemplate: "sprite.scss.handlebars"
-  //   }));
+  spriteFolder('./src/image/origin/').forEach(function(folder){
+    data = gulp.src(`./src/image/origin/${folder}/*.*`).pipe(spritesmith({
+      imgName: `sprite${folder}.png`,
+      cssName: `_sprite${folder}.scss`,
+      padding: 5,
+      cssTemplate: "sprite.scss.handlebars"
+    }));
 
-  //   data.img.pipe(gulp.dest('./src/image/sprite'));
-  //   data.css.pipe(gulp.dest('./src/sass/common'));
-  // });
+    data.img.pipe(gulp.dest('./src/image/sprite'));
+    data.css.pipe(gulp.dest('./src/sass/common'));
+  });
   done();
 }
 

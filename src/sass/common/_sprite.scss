@@ -1,189 +1,189 @@
-@mixin img_32_01 {
+@mixin img_32_01($ratio:3) {
   display:inline-block;
-  width: 32px;
-  height: 32px;
-  background-position: 0px 0px;
-  background-size: 180px 180px;
+  width: calc(96 / $ratio);
+  height: calc(96 / $ratio);
+  background-position: calc(0 / $ratio) calc(0 / $ratio);
+  background-size: calc(500 / $ratio) calc(500 / $ratio);
   background-image: url($spriteURL+'sprite.png'+$spriteCache);
   background-repeat: no-repeat;
 }
-@mixin img_32_02 {
+@mixin img_32_02($ratio:3) {
   display:inline-block;
-  width: 32px;
-  height: 32px;
-  background-position: -37px 0px;
-  background-size: 180px 180px;
+  width: calc(96 / $ratio);
+  height: calc(96 / $ratio);
+  background-position: calc(-101 / $ratio) calc(0 / $ratio);
+  background-size: calc(500 / $ratio) calc(500 / $ratio);
   background-image: url($spriteURL+'sprite.png'+$spriteCache);
   background-repeat: no-repeat;
 }
-@mixin img_32_03 {
+@mixin img_32_03($ratio:3) {
   display:inline-block;
-  width: 32px;
-  height: 32px;
-  background-position: 0px -37px;
-  background-size: 180px 180px;
+  width: calc(96 / $ratio);
+  height: calc(96 / $ratio);
+  background-position: calc(0 / $ratio) calc(-101 / $ratio);
+  background-size: calc(500 / $ratio) calc(500 / $ratio);
   background-image: url($spriteURL+'sprite.png'+$spriteCache);
   background-repeat: no-repeat;
 }
-@mixin img_32_04 {
+@mixin img_32_04($ratio:3) {
   display:inline-block;
-  width: 32px;
-  height: 32px;
-  background-position: -37px -37px;
-  background-size: 180px 180px;
+  width: calc(96 / $ratio);
+  height: calc(96 / $ratio);
+  background-position: calc(-101 / $ratio) calc(-101 / $ratio);
+  background-size: calc(500 / $ratio) calc(500 / $ratio);
   background-image: url($spriteURL+'sprite.png'+$spriteCache);
   background-repeat: no-repeat;
 }
-@mixin img_32_05 {
+@mixin img_32_05($ratio:3) {
   display:inline-block;
-  width: 32px;
-  height: 32px;
-  background-position: -74px 0px;
-  background-size: 180px 180px;
+  width: calc(96 / $ratio);
+  height: calc(96 / $ratio);
+  background-position: calc(-202 / $ratio) calc(0 / $ratio);
+  background-size: calc(500 / $ratio) calc(500 / $ratio);
   background-image: url($spriteURL+'sprite.png'+$spriteCache);
   background-repeat: no-repeat;
 }
-@mixin img_32_06 {
+@mixin img_32_06($ratio:3) {
   display:inline-block;
-  width: 32px;
-  height: 32px;
-  background-position: -74px -37px;
-  background-size: 180px 180px;
+  width: calc(96 / $ratio);
+  height: calc(96 / $ratio);
+  background-position: calc(-202 / $ratio) calc(-101 / $ratio);
+  background-size: calc(500 / $ratio) calc(500 / $ratio);
   background-image: url($spriteURL+'sprite.png'+$spriteCache);
   background-repeat: no-repeat;
 }
-@mixin img_32_07 {
+@mixin img_32_07($ratio:3) {
   display:inline-block;
-  width: 32px;
-  height: 32px;
-  background-position: 0px -74px;
-  background-size: 180px 180px;
+  width: calc(96 / $ratio);
+  height: calc(96 / $ratio);
+  background-position: calc(0 / $ratio) calc(-202 / $ratio);
+  background-size: calc(500 / $ratio) calc(500 / $ratio);
   background-image: url($spriteURL+'sprite.png'+$spriteCache);
   background-repeat: no-repeat;
 }
-@mixin img_32_08 {
+@mixin img_32_08($ratio:3) {
   display:inline-block;
-  width: 32px;
-  height: 32px;
-  background-position: -37px -74px;
-  background-size: 180px 180px;
+  width: calc(96 / $ratio);
+  height: calc(96 / $ratio);
+  background-position: calc(-101 / $ratio) calc(-202 / $ratio);
+  background-size: calc(500 / $ratio) calc(500 / $ratio);
   background-image: url($spriteURL+'sprite.png'+$spriteCache);
   background-repeat: no-repeat;
 }
-@mixin img_32_09 {
+@mixin img_32_09($ratio:3) {
   display:inline-block;
-  width: 32px;
-  height: 32px;
-  background-position: -74px -74px;
-  background-size: 180px 180px;
+  width: calc(96 / $ratio);
+  height: calc(96 / $ratio);
+  background-position: calc(-202 / $ratio) calc(-202 / $ratio);
+  background-size: calc(500 / $ratio) calc(500 / $ratio);
   background-image: url($spriteURL+'sprite.png'+$spriteCache);
   background-repeat: no-repeat;
 }
-@mixin img_32_10 {
+@mixin img_32_10($ratio:3) {
   display:inline-block;
-  width: 32px;
-  height: 32px;
-  background-position: -111px 0px;
-  background-size: 180px 180px;
+  width: calc(96 / $ratio);
+  height: calc(96 / $ratio);
+  background-position: calc(-303 / $ratio) calc(0 / $ratio);
+  background-size: calc(500 / $ratio) calc(500 / $ratio);
   background-image: url($spriteURL+'sprite.png'+$spriteCache);
   background-repeat: no-repeat;
 }
-@mixin img_32_11 {
+@mixin img_32_11($ratio:3) {
   display:inline-block;
-  width: 32px;
-  height: 32px;
-  background-position: -111px -37px;
-  background-size: 180px 180px;
+  width: calc(96 / $ratio);
+  height: calc(96 / $ratio);
+  background-position: calc(-303 / $ratio) calc(-101 / $ratio);
+  background-size: calc(500 / $ratio) calc(500 / $ratio);
   background-image: url($spriteURL+'sprite.png'+$spriteCache);
   background-repeat: no-repeat;
 }
-@mixin img_32_12 {
+@mixin img_32_12($ratio:3) {
   display:inline-block;
-  width: 32px;
-  height: 32px;
-  background-position: -111px -74px;
-  background-size: 180px 180px;
+  width: calc(96 / $ratio);
+  height: calc(96 / $ratio);
+  background-position: calc(-303 / $ratio) calc(-202 / $ratio);
+  background-size: calc(500 / $ratio) calc(500 / $ratio);
   background-image: url($spriteURL+'sprite.png'+$spriteCache);
   background-repeat: no-repeat;
 }
-@mixin img_32_13 {
+@mixin img_32_13($ratio:3) {
   display:inline-block;
-  width: 32px;
-  height: 32px;
-  background-position: 0px -111px;
-  background-size: 180px 180px;
+  width: calc(96 / $ratio);
+  height: calc(96 / $ratio);
+  background-position: calc(0 / $ratio) calc(-303 / $ratio);
+  background-size: calc(500 / $ratio) calc(500 / $ratio);
   background-image: url($spriteURL+'sprite.png'+$spriteCache);
   background-repeat: no-repeat;
 }
-@mixin img_32_14 {
+@mixin img_32_14($ratio:3) {
   display:inline-block;
-  width: 32px;
-  height: 32px;
-  background-position: -37px -111px;
-  background-size: 180px 180px;
+  width: calc(96 / $ratio);
+  height: calc(96 / $ratio);
+  background-position: calc(-101 / $ratio) calc(-303 / $ratio);
+  background-size: calc(500 / $ratio) calc(500 / $ratio);
   background-image: url($spriteURL+'sprite.png'+$spriteCache);
   background-repeat: no-repeat;
 }
-@mixin img_32_15 {
+@mixin img_32_15($ratio:3) {
   display:inline-block;
-  width: 32px;
-  height: 32px;
-  background-position: -74px -111px;
-  background-size: 180px 180px;
+  width: calc(96 / $ratio);
+  height: calc(96 / $ratio);
+  background-position: calc(-202 / $ratio) calc(-303 / $ratio);
+  background-size: calc(500 / $ratio) calc(500 / $ratio);
   background-image: url($spriteURL+'sprite.png'+$spriteCache);
   background-repeat: no-repeat;
 }
-@mixin img_32_16 {
+@mixin img_32_16($ratio:3) {
   display:inline-block;
-  width: 32px;
-  height: 32px;
-  background-position: -111px -111px;
-  background-size: 180px 180px;
+  width: calc(96 / $ratio);
+  height: calc(96 / $ratio);
+  background-position: calc(-303 / $ratio) calc(-303 / $ratio);
+  background-size: calc(500 / $ratio) calc(500 / $ratio);
   background-image: url($spriteURL+'sprite.png'+$spriteCache);
   background-repeat: no-repeat;
 }
-@mixin img_32_17 {
+@mixin img_32_17($ratio:3) {
   display:inline-block;
-  width: 32px;
-  height: 32px;
-  background-position: -148px 0px;
-  background-size: 180px 180px;
+  width: calc(96 / $ratio);
+  height: calc(96 / $ratio);
+  background-position: calc(-404 / $ratio) calc(0 / $ratio);
+  background-size: calc(500 / $ratio) calc(500 / $ratio);
   background-image: url($spriteURL+'sprite.png'+$spriteCache);
   background-repeat: no-repeat;
 }
-@mixin img_32_18 {
+@mixin img_32_18($ratio:3) {
   display:inline-block;
-  width: 32px;
-  height: 32px;
-  background-position: -148px -37px;
-  background-size: 180px 180px;
+  width: calc(96 / $ratio);
+  height: calc(96 / $ratio);
+  background-position: calc(-404 / $ratio) calc(-101 / $ratio);
+  background-size: calc(500 / $ratio) calc(500 / $ratio);
   background-image: url($spriteURL+'sprite.png'+$spriteCache);
   background-repeat: no-repeat;
 }
-@mixin img_32_19 {
+@mixin img_32_19($ratio:3) {
   display:inline-block;
-  width: 32px;
-  height: 32px;
-  background-position: -148px -74px;
-  background-size: 180px 180px;
+  width: calc(96 / $ratio);
+  height: calc(96 / $ratio);
+  background-position: calc(-404 / $ratio) calc(-202 / $ratio);
+  background-size: calc(500 / $ratio) calc(500 / $ratio);
   background-image: url($spriteURL+'sprite.png'+$spriteCache);
   background-repeat: no-repeat;
 }
-@mixin img_32_20 {
+@mixin img_32_20($ratio:3) {
   display:inline-block;
-  width: 32px;
-  height: 32px;
-  background-position: -148px -111px;
-  background-size: 180px 180px;
+  width: calc(96 / $ratio);
+  height: calc(96 / $ratio);
+  background-position: calc(-404 / $ratio) calc(-303 / $ratio);
+  background-size: calc(500 / $ratio) calc(500 / $ratio);
   background-image: url($spriteURL+'sprite.png'+$spriteCache);
   background-repeat: no-repeat;
 }
-@mixin img_32_21 {
+@mixin img_32_21($ratio:3) {
   display:inline-block;
-  width: 32px;
-  height: 32px;
-  background-position: 0px -148px;
-  background-size: 180px 180px;
+  width: calc(96 / $ratio);
+  height: calc(96 / $ratio);
+  background-position: calc(0 / $ratio) calc(-404 / $ratio);
+  background-size: calc(500 / $ratio) calc(500 / $ratio);
   background-image: url($spriteURL+'sprite.png'+$spriteCache);
   background-repeat: no-repeat;
 }
